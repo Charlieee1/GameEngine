@@ -1,4 +1,4 @@
-package tollbox;
+package toolbox;
 
 import org.lwjgl.util.vector.Matrix4f;
 import org.lwjgl.util.vector.Vector3f;
