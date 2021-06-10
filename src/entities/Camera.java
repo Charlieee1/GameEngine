@@ -18,11 +18,20 @@ public class Camera {
 		if (Keyboard.isKeyDown(Keyboard.KEY_W)) {
 			position.z -= .02f;
 		}
+		if (Keyboard.isKeyDown(Keyboard.KEY_S)) {
+			position.z += .02f;
+		}
 		if (Keyboard.isKeyDown(Keyboard.KEY_D)) {
 			position.x += .02f;
 		}
 		if (Keyboard.isKeyDown(Keyboard.KEY_A)) {
 			position.x -= .02f;
+		}
+		if (Keyboard.isKeyDown(Keyboard.KEY_SPACE)) {
+			position.y += .02f;
+		}
+		if (Keyboard.isKeyDown(Keyboard.KEY_LSHIFT)) {
+			position.y -= .02f;
 		}
 	}
 
